@@ -1,4 +1,9 @@
 package com.zerkinisoft.peatbit.domain;
 
-public interface LiquorRepository {
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface LiquorRepository extends CrudRepository<Liquor, Integer> {
+
 }
