@@ -1,9 +1,9 @@
-package com.zerkinisoft.peatbit.domain;
+package com.zerkinisoft.bookrook.domain;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface LiquorRepository extends CrudRepository<Liquor, Integer> {
+public interface BookRepository extends CrudRepository<Book, Integer> {
 
 }
